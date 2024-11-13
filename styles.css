@@ -1,0 +1,35 @@
+*{
+  margin: 0px;
+  padding: 0;
+}
+
+#content{
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5px;
+}
+.flex-box{
+  display: flex;
+  position: relative;
+  height: 200px;
+  width: 150px;
+  border: 2px solid;
+}
+nav{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  align-items: center;
+  padding: 10px;
+}
+span{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
